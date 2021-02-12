@@ -25,6 +25,7 @@ plugins {
   id "com.jfrog.bintray" version "1.6"
 }
 
+apply plugin: "jacoco"
 apply plugin: "info.solidsoft.pitest"
 
 version = new Date().format('yyyyMMdd')
